@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="77030" started-at="2023-03-10T17:20:42 IST" finished-at="2023-03-10T17:21:59 IST">
+    <groups>
+      <group name="Run@Time">
+        <method signature="MiniCaseStudy.logIn()[pri:1, instance:CaseStudy.MiniCaseStudy@548ad73b]" name="logIn" class="CaseStudy.MiniCaseStudy"/>
+        <method signature="MiniCaseStudy.manyItem(java.lang.String)[pri:3, instance:CaseStudy.MiniCaseStudy@548ad73b]" name="manyItem" class="CaseStudy.MiniCaseStudy"/>
+        <method signature="MiniCaseStudy.purchaseproduct()[pri:5, instance:CaseStudy.MiniCaseStudy@548ad73b]" name="purchaseproduct" class="CaseStudy.MiniCaseStudy"/>
+      </group> <!-- Run@Time -->
+    </groups>
+    <test name="Default test" duration-ms="77030" started-at="2023-03-10T17:20:42 IST" finished-at="2023-03-10T17:21:59 IST">
+      <class name="CaseStudy.MiniCaseStudy">
+        <test-method status="PASS" signature="setup()[pri:0, instance:CaseStudy.MiniCaseStudy@548ad73b]" name="setup" is-config="true" duration-ms="4975" started-at="2023-03-10T17:20:42 IST" finished-at="2023-03-10T17:20:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logIn()[pri:1, instance:CaseStudy.MiniCaseStudy@548ad73b]" name="logIn" duration-ms="3269" started-at="2023-03-10T17:20:47 IST" finished-at="2023-03-10T17:20:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:CaseStudy.MiniCaseStudy@548ad73b]" name="tearDown" is-config="true" duration-ms="5" started-at="2023-03-10T17:20:50 IST" finished-at="2023-03-10T17:20:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logIn status=SUCCESS method=MiniCaseStudy.logIn()[pri:1, instance:CaseStudy.MiniCaseStudy@548ad73b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="addItem()[pri:2, instance:CaseStudy.MiniCaseStudy@548ad73b]" name="addItem" duration-ms="6159" started-at="2023-03-10T17:20:50 IST" finished-at="2023-03-10T17:20:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItem -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:CaseStudy.MiniCaseStudy@548ad73b]" name="tearDown" is-config="true" duration-ms="0" started-at="2023-03-10T17:20:56 IST" finished-at="2023-03-10T17:20:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addItem status=SUCCESS method=MiniCaseStudy.addItem()[pri:2, instance:CaseStudy.MiniCaseStudy@548ad73b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="manyItem(java.lang.String)[pri:3, instance:CaseStudy.MiniCaseStudy@548ad73b]" name="manyItem" duration-ms="11519" started-at="2023-03-10T17:20:56 IST" data-provider="items" finished-at="2023-03-10T17:21:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nokia lumia 1520]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manyItem -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:CaseStudy.MiniCaseStudy@548ad73b]" name="tearDown" is-config="true" duration-ms="3" started-at="2023-03-10T17:21:08 IST" finished-at="2023-03-10T17:21:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=manyItem status=SUCCESS method=MiniCaseStudy.manyItem(java.lang.String)[pri:3, instance:CaseStudy.MiniCaseStudy@548ad73b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="manyItem(java.lang.String)[pri:3, instance:CaseStudy.MiniCaseStudy@548ad73b]" name="manyItem" duration-ms="12330" started-at="2023-03-10T17:21:08 IST" data-provider="items" finished-at="2023-03-10T17:21:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung galaxy s7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manyItem -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:CaseStudy.MiniCaseStudy@548ad73b]" name="tearDown" is-config="true" duration-ms="1" started-at="2023-03-10T17:21:20 IST" finished-at="2023-03-10T17:21:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=manyItem status=SUCCESS method=MiniCaseStudy.manyItem(java.lang.String)[pri:3, instance:CaseStudy.MiniCaseStudy@548ad73b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="manyItem(java.lang.String)[pri:3, instance:CaseStudy.MiniCaseStudy@548ad73b]" name="manyItem" duration-ms="11372" started-at="2023-03-10T17:21:20 IST" data-provider="items" finished-at="2023-03-10T17:21:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nexus 6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manyItem -->
+        <test-method status="PASS" signature="manyItem(java.lang.String)[pri:3, instance:CaseStudy.MiniCaseStudy@548ad73b]" name="manyItem" duration-ms="11334" started-at="2023-03-10T17:21:32 IST" data-provider="items" finished-at="2023-03-10T17:21:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HTC One M9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manyItem -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:CaseStudy.MiniCaseStudy@548ad73b]" name="tearDown" is-config="true" duration-ms="0" started-at="2023-03-10T17:21:32 IST" finished-at="2023-03-10T17:21:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=manyItem status=SUCCESS method=MiniCaseStudy.manyItem(java.lang.String)[pri:3, instance:CaseStudy.MiniCaseStudy@548ad73b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:CaseStudy.MiniCaseStudy@548ad73b]" name="tearDown" is-config="true" duration-ms="1" started-at="2023-03-10T17:21:43 IST" finished-at="2023-03-10T17:21:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=manyItem status=SUCCESS method=MiniCaseStudy.manyItem(java.lang.String)[pri:3, instance:CaseStudy.MiniCaseStudy@548ad73b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="deleteItem()[pri:4, instance:CaseStudy.MiniCaseStudy@548ad73b]" name="deleteItem" duration-ms="5014" started-at="2023-03-10T17:21:43 IST" finished-at="2023-03-10T17:21:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteItem -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:CaseStudy.MiniCaseStudy@548ad73b]" name="tearDown" is-config="true" duration-ms="0" started-at="2023-03-10T17:21:48 IST" finished-at="2023-03-10T17:21:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteItem status=SUCCESS method=MiniCaseStudy.deleteItem()[pri:4, instance:CaseStudy.MiniCaseStudy@548ad73b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="purchaseproduct()[pri:5, instance:CaseStudy.MiniCaseStudy@548ad73b]" name="purchaseproduct" duration-ms="9930" started-at="2023-03-10T17:21:48 IST" finished-at="2023-03-10T17:21:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseproduct -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:CaseStudy.MiniCaseStudy@548ad73b]" name="tearDown" is-config="true" duration-ms="0" started-at="2023-03-10T17:21:58 IST" finished-at="2023-03-10T17:21:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=purchaseproduct status=SUCCESS method=MiniCaseStudy.purchaseproduct()[pri:5, instance:CaseStudy.MiniCaseStudy@548ad73b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:CaseStudy.MiniCaseStudy@548ad73b]" name="closeApp" is-config="true" duration-ms="1029" started-at="2023-03-10T17:21:58 IST" finished-at="2023-03-10T17:21:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- CaseStudy.MiniCaseStudy -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
